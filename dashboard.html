@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+<link rel="stylesheet" href="css/bootstrap.min.v5.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- <link rel="stylesheet" href="css/mohit css/theme1.css"> -->
+<link rel="stylesheet" href="css/mohit css/theme2 (2).css">
+<!-- <link rel="stylesheet" href="css/mohit css/theme3.css"> -->
+<!-- <link rel="stylesheet" href="css/main.css"> -->
+<!-- <link rel="stylesheet" href="css/mohit css/theme4.css"> -->
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="browncolor">
+  <!-- pop up lock -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog widthmodal">
+    <div class="modal-content">
+      <div class="modal-header mheader">
+        <h5 class="modal-title cassino" id="staticBackdropLabel">Lock &nbsp <i class="fa-sharp fa-solid fa-lock"></i></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bgbody">
+        
+        <div class="col-md-12 text-white">
+          <div class="row">
+            <div class="col-md-3 subdiv">
+              <p class="cassino subdivp">Sportsbook</p>
+              <i class="fa-sharp fa-solid fa-lock subdivi"></i>
+              <label class="switch">
+                <input type="checkbox" checked="">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="col-md-3 subdiv">
+              <p class="cassino subdivp">Live Casino</p>
+              <i class="fa-sharp fa-solid fa-lock subdivi"></i>
+              <label class="switch">
+                <input type="checkbox" checked="">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="col-md-3 subdiv">
+              <p class="cassino subdivp">Card Games</p>
+              <i class="fa-sharp fa-solid fa-lock subdivi"></i>
+              <label class="switch">
+                <input type="checkbox" checked="">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="col-md-3 subdiv">
+              <p class="cassino subdivp">Live Games</p>
+              <i class="fa-sharp fa-solid fa-lock subdivi"></i>
+              <label class="switch">
+                <input type="checkbox" checked="">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="col-md-4 mt-3 subdiv">
+              <p class="cassino subdivp">Premium-Sportsbook</p>
+              <i class="fa-sharp fa-solid fa-lock subdivi"></i>
+             
+            </div>
+            <div class="col-md-4 mt-3 subdiv">
+              <p class="cassino subdivp">Horse Racing</p>
+              <i class="fa-sharp fa-solid fa-lock subdivi"></i>
+              <label class="switch">
+                <input type="checkbox" checked="">
+                <span class="slider round"></span>
+              </label>
+            </div>
+
+            <div class="col-md-4 mt-3 subdiv">
+              <p class="cassino subdivp">Transfer Lock</p>
+              <i class="fa-sharp fa-solid fa-lock subdivi"></i>
+             
+            </div>
+            <div class="col-md-4 mt-3 subdiv">
+              <p class="cassino subdivp">Sportswise</p>
+             
+            </div>
+          
+            <hr class="hr">
+
+
+          </div>
+        </div>
+
+        <div class="col-md-12 text-white">
+          <div class="row p-2">
+            <div class="col-md-4 p-3 boxpop">
+              <div class="col-md-12 pb-3 divuser">
+                <p class="cassino subdivpop">Cricket</p>
+                <!-- <i class="fa-sharp fa-solid fa-lock subdivlock"></i> -->
+                <label class="switch">
+                  <input type="checkbox" checked="">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+
+              <div class="col-md-12 pb-3 divuser">
+                <p class="cassino subdivpop1">Bookmaker</p>
+                <i class="fa-sharp fa-solid fa-lock subdivlock"></i>
+                <label class="switch">
+                  <input type="checkbox" checked="">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+
+
+              <div class="col-md-12 pb-3 divuser">
+                <p class="cassino subdivpop2">Match odds</p>
+                <i class="fa-sharp fa-solid fa-lock subdivlock"></i>
+                <label class="switch">
+                  <input type="checkbox" checked="">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+
+
+              <div class="col-md-12 pb-3 divuser">
+                <p class="cassino subdivpop3">Custom Session</p>
+                <i class="fa-sharp fa-solid fa-lock subdivlock"></i>
+                <label class="switch">
+                  <input type="checkbox" checked="">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+
+
+              <div class="col-md-12 pb-3  divuser">
+                <p class="cassino subdivpop4">Completed Match</p>
+                <i class="fa-sharp fa-solid fa-lock subdivlock"></i>
+                <label class="switch">
+                  <input type="checkbox" checked="">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+
+
+              <div class="col-md-12 pb-3  divuser">
+                <p class="cassino subdivpop5">Tied Match</p>
+                <i class="fa-sharp fa-solid fa-lock subdivlock"></i>
+                <label class="switch">
+                  <input type="checkbox" checked="">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+
+              
+              <div class="col-md-12 divuser">
+                <p class="cassino subdivpop6">Line Session</p>
+                <i class="fa-sharp fa-solid fa-lock subdivlock"></i>
+                <label class="switch">
+                  <input type="checkbox" checked="">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+
+
+
+        
+            </div>
+            <div class="col-md-8 p-3">
+               
+              <div class="row">
+                <div class="col-md-12  divuser  marb">
+                <div class="col-md-3"> <p class="cassino ">Tennis</p></div>
+                <div class="col-md-3"> 
+                  <label class="switch">
+                  <input type="checkbox" checked="">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+                <div class="col-md-3"> <p class="cassino ">Soccer</p></div>
+                <div class="col-md-3">
+                  <label class="switch">
+                    <input type="checkbox" checked="">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-md-12  divuser marb">
+                <div class="col-md-3"> <p class="cassino ">Lottery</p></div>
+                <div class="col-md-3"> 
+                  <label class="switch">
+                  <input type="checkbox" checked="">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+                <div class="col-md-3"> <p class="cassino ">Election</p></div>
+                <div class="col-md-3">
+                  <label class="switch">
+                    <input type="checkbox" checked="">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-md-12  divuser">
+                <div class="col-md-3"> <p class="cassino ">Binary</p></div>
+                <div class="col-md-3"> 
+                  <label class="switch">
+                  <input type="checkbox" checked="">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+                <div class="col-md-3"> <p class="cassino ">Soccer3ET</p></div>
+                <div class="col-md-3">
+                  <label class="switch">
+                    <input type="checkbox" checked="">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </div>
+
+
+            </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-12 mt-4">
+          <div class="row">
+            <div class="col-md-2"> <p class="cassino ">Hockey</p></div>
+            <div class="col-md-2"> 
+              <label class="switch">
+              <input type="checkbox" checked="">
+              <span class="slider round"></span>
+            </label>
+          </div>
+            <div class="col-md-2"> <p class="cassino ">Basketball</p></div>
+            <div class="col-md-2">
+              <label class="switch">
+                <input type="checkbox" checked="">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="col-md-1"> <p class="cassino ">Baseball</p></div>
+            <div class="col-md-2 lasttgl">
+              <label class="switch">
+                <input type="checkbox" checked="">
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-12 mt-5">
+          <div class="row">
+            <div class="col-md-2"> <p class="cassino ">Australian Rules</p></div>
+            <div class="col-md-2"> 
+              <label class="switch">
+              <input type="checkbox" checked="">
+              <span class="slider round"></span>
+            </label>
+          </div>
+            <div class="col-md-2"> <p class="cassino ">Politics</p></div>
+            <div class="col-md-2">
+              <label class="switch">
+                <input type="checkbox" checked="">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="col-md-1"> <p class="cassino ">Mixed Martial Arts</p></div>
+            <div class="col-md-2 lasttgl">
+              <label class="switch">
+                <input type="checkbox" checked="">
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 ">
+          <div class="row">
+            <div class="col-md-2"> <p class="cassino ">Netball</p></div>
+            <div class="col-md-2"> 
+              <label class="switch">
+              <input type="checkbox" checked="">
+              <span class="slider round"></span>
+            </label>
+          </div>
+            <div class="col-md-2"> <p class="cassino ">Handball</p></div>
+            <div class="col-md-2">
+              <label class="switch">
+                <input type="checkbox" checked="">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="col-md-1"> <p class="cassino ">Boxing</p></div>
+            <div class="col-md-2 lasttgl">
+              <label class="switch">
+                <input type="checkbox" checked="">
+                <span class="slider round"></span>
+              </label>
+            </div>
+
+            <div class="col-md-2 mt-3"> <p class="cassino ">American Football</p></div>
+            <div class="col-md-2 mt-3"> 
+              <label class="switch">
+              <input type="checkbox" checked="">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          </div>
+        </div>
+
+
+
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+  <!-- pop up lock -->
+<!--Header start-->
+<div class="container-fluid">
+<header id="header" class="header d-flex align-items-center row">
+  <div class="col-md-2 col-1">
+    <div class="d-flex align-items-center justify-content-between"><i class="toggle-sidebar-btn pe-2"> <i class="fa fa-bars fa-1x text-white"></i> <img src="images/logo.png" alt="" width="130"></i></div>
+</div>
+<div class="col-md-8 col-8">
+<div class="row">
+  <div class="col-md-4 col-4">
+    <div class="balance">
+      <p>33,28,992 <br><span>BALANCE</span></p>
+    </div>
+  </div>
+  <div class="col-md-4 col-4">
+    <div class="balance balance-up">
+      <p>33,28,992 <br><span>BALANCE</span> <i class="fa-regular fa-circle-up"></i></p>
+    </div>
+  </div>
+  <div class="col-md-4 col-4">
+    <div class="balance balance-down">
+      <p>33,28,992 <br><span>BALANCE</span> <i class="fa-regular fa-circle-down"></i></p>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="col-md-2 datetime col-3">
+    <div class="user">
+      <p>February 16, 2023 11:18:43 </p>
+      <p>vKm25,</p>
+      <a href="" class="btn btn-pink radius-all "><i class="fa fa-redo-alt disnone"></i> Refresh</a>
+    </div>
+  </div>
+</header>
+</div>
+<!--Header end-->
+<!--Left panel start-->
+<div gj-include-html="/includes/left-panel.html"></div>
+<!--Left panel end-->0
+<!--Right panel start-->
+<main id="main" class="main">
+  <section class="section dashboard">
+    <div class="row">
+      <div class="col-md-6 col-12 mb-3">
+        <div class="row text-white">
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text bg-dark text-white border-pink radius-left-tb" id="addon-wrapping"><i class="fa fa-search"></i> </span>
+            <input type="text" class="form-control bg-dark text-white border-start-0 border-pink radius-right-tb" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <a href="createnew.html" class="btn btn-pink radius-all"><i class="fa fa-pen"></i> Create New</a>
+      </div>
+      <div class="col-lg-3 col-6 text-end">(Total : 10)</div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <table class="table tableall">
+          <thead>
+            <tr>
+              <th scope="col" class="first"><input type="checkbox"> </th>
+              <th scope="col"><i class="fa-sharp fa-regular fa-address-card"></i></th>
+              <th scope="col">#UserName</th>
+              <th scope="col">Credit Limit</th>
+              <th scope="col">Net Exposure</th>
+              <th scope="col">Take</th>
+              <th scope="col">Give</th>
+              <th scope="col">Available Credit</th>
+              <th scope="col"><i class="fa-sharp fa-regular fa-square-check"></i> Status</th>
+              <th scope="col">Info</th>
+              <th scope="col">Details</th>
+              <th scope="col">Action</th>
+              <th scope="col" class="last">Lock</th>
+            </tr>
+          </thead>
+          <tbody>
+
+
+
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>1</td>
+              <td>013prg</td>
+              <td>50,000</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>50,000</td>
+              <td><button class="btn btn-success rounded-pill btn-sm ps-3 pe-3" type="button">Active</button></td>
+              <td><i class="fa-sharp fa-solid fa-info text-pink"></i></td>
+              <td><i class="fa-sharp fa-solid fa-eye text-pink"></i></td>
+              <td> <a href="edit-mamber.html"><i class="fa-sharp fa-solid fa-pen text-pink"></i></a></td>
+              <td ><i class="fa-sharp fa-solid fa-lock text-pink " data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>1</td>
+              <td>013prg</td>
+              <td>50,000</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>50,000</td>
+              <td><button class="btn btn-danger rounded-pill btn-sm" type="button">Inactive</button></td>
+              <td><i class="fa-sharp fa-solid fa-info text-pink"></i></td>
+              <td><i class="fa-sharp fa-solid fa-eye text-pink"></i></td>
+              <td> <a href="edit-mamber.html"><i class="fa-sharp fa-solid fa-pen text-pink"></i></a></td>
+              <td ><i class="fa-sharp fa-solid fa-lock text-pink " data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>1</td>
+              <td>013prg</td>
+              <td>50,000</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>50,000</td>
+              <td><button class="btn btn-success rounded-pill btn-sm ps-3 pe-3" type="button">Active</button></td>
+              <td><i class="fa-sharp fa-solid fa-info text-pink"></i></td>
+              <td><i class="fa-sharp fa-solid fa-eye text-pink"></i></td>
+              <td> <a href="edit-mamber.html"><i class="fa-sharp fa-solid fa-pen text-pink"></i></a></td>
+              <td ><i class="fa-sharp fa-solid fa-lock text-pink " data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>1</td>
+              <td>013prg</td>
+              <td>50,000</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>50,000</td>
+              <td><button class="btn btn-success rounded-pill btn-sm ps-3 pe-3" type="button">Active</button></td>
+              <td><i class="fa-sharp fa-solid fa-info text-pink"></i></td>
+              <td><i class="fa-sharp fa-solid fa-eye text-pink"></i></td>
+              <td> <a href="edit-mamber.html"><i class="fa-sharp fa-solid fa-pen text-pink"></i></a></td>
+              <td ><i class="fa-sharp fa-solid fa-lock text-pink " data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>1</td>
+              <td>013prg</td>
+              <td>50,000</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>50,000</td>
+              <td><button class="btn btn-success rounded-pill btn-sm ps-3 pe-3" type="button">Active</button></td>
+              <td><i class="fa-sharp fa-solid fa-info text-pink"></i></td>
+              <td><i class="fa-sharp fa-solid fa-eye text-pink"></i></td>
+              <td> <a href="edit-mamber.html"><i class="fa-sharp fa-solid fa-pen text-pink"></i></a></td>
+              <td ><i class="fa-sharp fa-solid fa-lock text-pink " data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>1</td>
+              <td>013prg</td>
+              <td>50,000</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>50,000</td>
+              <td><button class="btn btn-success rounded-pill btn-sm ps-3 pe-3" type="button">Active</button></td>
+              <td><i class="fa-sharp fa-solid fa-info text-pink"></i></td>
+              <td><i class="fa-sharp fa-solid fa-eye text-pink"></i></td>
+              <td> <a href="edit-mamber.html"><i class="fa-sharp fa-solid fa-pen text-pink"></i></a></td>
+              <td ><i class="fa-sharp fa-solid fa-lock text-pink " data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>1</td>
+              <td>013prg</td>
+              <td>50,000</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>50,000</td>
+              <td><button class="btn btn-success rounded-pill btn-sm ps-3 pe-3" type="button">Active</button></td>
+              <td><i class="fa-sharp fa-solid fa-info text-pink"></i></td>
+              <td><i class="fa-sharp fa-solid fa-eye text-pink"></i></td>
+              <td> <a href="edit-mamber.html"><i class="fa-sharp fa-solid fa-pen text-pink"></i></a></td>
+              <td ><i class="fa-sharp fa-solid fa-lock text-pink " data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Total</td>
+              <td><span class="text-success">0</span></td>
+              <td><span class="text-danger">8,910.60</span></td>
+              <td>1,460,470.60</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="" class="btn bg-dgrey rounded-pill text-white">First</a>
+        <a href="" class="btn bg-dgrey rounded-pill text-white">Previous</a>
+        <a href="" class="btn bg-pink rounded-pill text-white ps-4 pe-4">1</a>
+        <a href="" class="btn bg-dgrey rounded-pill text-white">Next</a>
+        <a href="" class="btn bg-dgrey rounded-pill text-white">Last</a>
+
+      </div>
+    </div>
+  </section>
+</main>
+<!--Right panel end-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/gj.js"></script>
+<script src="js/newscript.js"></script>
+</body>
+</html>

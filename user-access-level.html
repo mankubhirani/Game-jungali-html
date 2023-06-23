@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Access Level</title>
+<link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+<link rel="stylesheet" href="css/bootstrap.min.v5.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="browncolor">
+<!--Header start-->
+<div class="container-fluid">
+<header id="header" class="header d-flex align-items-center row">
+  <div class="col-md-2 col-1">
+    <div class="d-flex align-items-center justify-content-between"><i class="toggle-sidebar-btn pe-2"> <i class="fa fa-bars fa-1x text-white"></i> <img src="images/logo.png" alt="" width="130"></i></div>
+</div>
+<div class="col-md-8 col-8">
+<div class="row">
+  <div class="col-md-4 col-4">
+    <div class="balance">
+      <p>33,28,992 <br><span>BALANCE</span></p>
+    </div>
+  </div>
+  <div class="col-md-4 col-4">
+    <div class="balance balance-up">
+      <p>33,28,992 <br><span>BALANCE</span> <i class="fa-regular fa-circle-up"></i></p>
+    </div>
+  </div>
+  <div class="col-md-4 col-4">
+    <div class="balance balance-down">
+      <p>33,28,992 <br><span>BALANCE</span> <i class="fa-regular fa-circle-down"></i></p>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="col-md-2 col-3 datetime">
+    <div class="user">
+      <p>February 16, 2023 11:18:43 </p>
+      <p>vKm25,</p>
+      <a href="" class="btn btn-pink radius-all"><i class="fa fa-redo-alt disnone"></i> Refresh</a>
+    </div>
+  </div>
+</header>
+</div>
+<!--Header end-->
+<!--Left panel start-->
+<div gj-include-html="/includes/left-panel.html"></div>
+<!--Left panel end-->
+<!--Right panel start-->
+<main id="main" class="main">
+  <section class="section gamedetails">
+    <div class="row">
+      <div class="col-md-12">
+        <!--your code will come here start-->
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-3 divuser">
+              <img src="images/useraccese.png" alt="" class="imguser">
+
+              <p class="lou">List of Users</p>
+            </div>
+          
+            <div class="col-md-5">
+              <div class="row text-white">
+                <div class="input-group flex-nowrap">
+                  <span class="input-group-text bg-dark text-white border-pink radius-left-tb" id="addon-wrapping"><i class="fa fa-search"></i> </span>
+                  <input type="text" class="form-control bg-dark text-white border-start-0 border-pink radius-right-tb" placeholder="Search here" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-4 ">
+              <div class="row">
+                <div class="col-md-6 createbtn">  <a href="" class="btn btn-pink radius-all"><i class="fa fa-pen"></i> Create New</a></div>
+                <div class="col-md-6"> <h5 class="mt-2 total"> (Total : 0)</h5></div>
+            
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!--your code will come here end-->
+      </div>
+    </div>
+  </section>
+            
+
+               <div class="col-md-12 mt-3 nodata"> 
+                 <div class="row">
+                  <div class="col-md-12 mt-3 nodatafound">
+                    No data found
+                  </div>
+                 </div>
+                     
+               </div>
+
+</main>
+<!--Right panel end-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/gj.js"></script>
+<script src="js/newscript.js"></script>
+</body>
+</html>
